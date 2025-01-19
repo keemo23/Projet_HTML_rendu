@@ -1,0 +1,759 @@
+@media screen and (min-width: 1024px){
+
+.en_tete{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content:space-around;
+        background-image: url("background.png");
+        background-size: 300px;
+        padding: 10px;
+
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    height : 100%;
+    width: 100%;
+}
+
+.principal_carte_inter{
+    display: flex;
+    flex-wrap: wrap;
+    height : 820px;
+    width: 100%;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #6271dd;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #6271dd;
+    width: 1500px;
+    height: 60px;
+}  
+
+.carousel-inner{
+    height: 600px;
+}
+
+.contenu {
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    background-color: #d5daff;
+    
+}
+
+.contenu_plus_sur_la_ville{
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: #d5daff;
+    
+}
+
+
+.contenu_contact_us{
+    flex-wrap: wrap;    
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    background-color: #d5daff;
+}
+
+
+.contenu_carte_inter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 735px;
+    width: 100%;
+    padding: 20px;
+    background-color: #d5daff;
+   
+}
+
+#controls{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#map {
+    padding: 10px;
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: solid;
+    border-color: #3b4cca;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+
+#carte_localisation_laayoune{
+    height:600px; 
+    width: 800px; 
+    margin-bottom: 10px; 
+    align-items: center; 
+    align-content: center; 
+    justify-content: center;
+}
+
+.a_menu{
+    text-decoration: none; /* Supprime le soulignement */
+    color: white; /* Conserve la couleur actuelle du texte (optionnel) */
+}
+
+.a_contenu{
+    text-decoration: none; /* Supprime le soulignement */
+    color: black; /* Conserve la couleur actuelle du texte (optionnel) */
+}
+
+.partie1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.partie2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#img_terrain{
+    width: 750px;
+}
+
+iframe{
+    width:800px;
+    height:500px;
+    border: 0px;
+}
+
+#img_plage_foum{
+    width: 750px; 
+    height: 500px;
+}
+
+#img_quad{
+width: 750px;
+}
+
+#img_ville7{
+width:750px; 
+height: 400px;
+}
+
+#img_paint-ball{
+width: 750px;
+}
+
+.pied{
+    background-color: #6271dd;
+    color: white;
+    padding: 10px;
+    border: solid;
+    border-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+
+#logo_mar{
+    height: 90px;
+    width: 90px;
+    margin-right: 500px;
+}
+
+#logo_ville{
+    height: 90px;
+    width: 90px;
+    margin-left: 500px;
+}
+
+.text{
+    background-color: rgba(255, 255, 255, 0.778);
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    align-content:center;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    position: sticky;
+}
+
+h1{
+    color: rgb(1, 1, 131);
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    align-content:center;
+    display: inline-block;
+    padding: 10px;
+}
+
+h3{
+    color: rgb(1, 1, 131);
+    background-color: rgba(255, 255, 255, 0.778);
+    text-align: center;
+    align-items: center;
+    align-content:center;
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.ville{
+    height: 300px;
+    width: 320px;
+}
+
+.offcanvas{
+    position: fixed;
+}
+
+
+a.nav-link{
+    color: white;
+    font-size: 15px;
+    border: solid;
+}
+}
+
+
+
+/*Responsive*/
+@media screen and (min-width: 600px) and (max-width: 1024px){
+
+.en_tete{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-around;
+    background-image: url("background.png");
+    background-size: 300px;
+    padding: 10px;
+
+}
+
+.principal{
+display: flex;
+flex-wrap: wrap;
+height : 100%;
+width: 100%;
+}
+
+.principal_carte_inter{
+display: flex;
+flex-wrap: wrap;
+height : 820px;
+width: 100%;
+}
+
+/*.navbar.navbar-expand-lg.bg-body-tertiary{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+align-content: center;
+text-align: center;
+background-color: #6271dd;
+}*/
+
+.navbar-nav{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+align-content: center;
+text-align: center;
+background-color: #6271dd;
+width: 960px;
+height: 60px;
+}  
+
+
+.contenu {
+justify-content: center;
+align-items: center;
+height: 80%;
+width: 100%;
+background-color: #d5daff;
+
+}
+
+.contenu_plus_sur_la_ville{
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+display: flex;
+height: 80%;
+width: 100%;
+background-color: #d5daff;
+
+}
+
+
+.contenu_contact_us{
+flex-wrap: wrap;    
+padding: 50px;
+justify-content: center;
+align-items: center;
+height: 80%;
+width: 100%;
+background-color: #d5daff;
+}
+
+
+.contenu_carte_inter{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+height: 735px;
+width: 100%;
+padding: 20px;
+background-color: #d5daff;
+
+}
+
+#controls{
+margin-left: 10px;
+margin-right: 20px;
+}
+
+#map {
+padding: 10px;
+height: 600px;
+width: 900px;
+align-items: center;
+align-content: center;
+justify-content: center;
+border: solid;
+border-color: #3b4cca;
+display: flex;
+flex-wrap: wrap;
+margin-left: 50px;
+}
+
+#carte_localisation_laayoune{
+    height:600px; 
+    width: 800px; 
+    margin-bottom: 10px; 
+    align-items: center; 
+    align-content: center; 
+    justify-content: center;
+}
+
+.a_menu{
+text-decoration: none; /* Supprime le soulignement */
+color: white; /* Conserve la couleur actuelle du texte (optionnel) */
+}
+
+.a_contenu{
+text-decoration: none; /* Supprime le soulignement */
+color: black; /* Conserve la couleur actuelle du texte (optionnel) */
+}
+
+.partie1{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.partie2{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+iframe{
+width:800px;
+height:500px;
+}
+
+#img_plage_foum{
+    width: 750px; 
+    height: 500px;
+}
+
+#img_quad{
+width: 750px;
+}
+
+#img_ville7{
+width:750px; 
+height: 400px;
+}
+
+#img_paint-ball{
+width: 750px;
+}
+
+.pied{
+background-color: #6271dd;
+color: white;
+padding: 10px;
+border: solid;
+border-color: #ffffff;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+align-content: center;
+}
+
+
+#logo_mar{
+height: 90px;
+width: 90px;
+margin-right: 5px;
+}
+
+#logo_ville{
+height: 90px;
+width: 90px;
+margin-left: 5px;
+}
+
+.text{
+background-color: rgba(255, 255, 255, 0.778);
+justify-items: center;
+text-align: center;
+align-items: center;
+align-content:center;
+display: inline-block;
+margin-top: 10px;
+padding: 5px;
+position: sticky;
+}
+
+.text_carte_inter{
+background-color: rgba(255, 255, 255, 0.778);
+justify-items: left;
+text-align: left;
+align-items: left;
+align-content:left;
+display: inline-block;
+margin-top: 10px;
+padding: 5px;
+height: 100%;
+}
+
+h1{
+color: rgb(1, 1, 131);
+background-color: white;
+text-align: center;
+align-items: center;
+align-content:center;
+display: inline-block;
+padding: 10px;
+}
+
+h3{
+color: rgb(1, 1, 131);
+background-color: rgba(255, 255, 255, 0.778);
+text-align: center;
+align-items: center;
+align-content:center;
+display: inline-block;
+padding: 5px;
+}
+
+
+.ville{
+height: 300px;
+width: 320px;
+}
+
+.offcanvas{
+position: fixed;
+}
+
+
+a.nav-link{
+color: white;
+font-size: 15px;
+border: solid;
+}
+}
+
+
+/*Responsive*/
+
+@media screen and (max-width: 600px){
+    .en_tete{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content:space-around;
+        background-image: url("background.png");
+        background-size: 300px;
+        padding: 10px;
+    }
+    
+    .principal{
+    display: flex;
+    flex-wrap: wrap;
+    height : 100%;
+    width: 100%;
+    }
+    
+    .principal_carte_inter{
+    display: flex;
+    flex-wrap: wrap;
+    height : 820px;
+    width: 100%;
+    }
+    
+    .navbar.navbar-expand-lg.bg-body-tertiary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #6271dd;
+    width: 100%;
+    }
+    
+    .navbar-nav{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #6271dd;
+    }
+
+    a.nav-link{
+        color: white;
+        font-size: 15px;
+        }
+    
+    .contenu {
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    background-color: #d5daff;
+    
+    }
+    
+    .contenu_plus_sur_la_ville{
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: #d5daff;
+    
+    }
+    
+    
+    .contenu_contact_us{
+    flex-wrap: wrap;    
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    background-color: #d5daff;
+    }
+    
+    
+    .contenu_carte_inter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 735px;
+    width: 100%;
+    padding: 20px;
+    background-color: #d5daff;
+    
+    }
+    
+    #controls{
+    margin-left: 10px;
+    margin-right: 20px;
+    }
+    
+    #map {
+    padding: 10px;
+    height: 600px;
+    width: 1200px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: solid;
+    border-color: #3b4cca;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    }
+    
+    #carte_localisation_laayoune{
+        height:400px; 
+        width: 450px; 
+        margin-bottom: 10px; 
+        align-items: center; 
+        align-content: center; 
+        justify-content: center;
+    }
+
+    .a_menu{
+    text-decoration: none; /* Supprime le soulignement */
+    color: white; /* Conserve la couleur actuelle du texte (optionnel) */
+    }
+    
+    .a_contenu{
+    text-decoration: none; /* Supprime le soulignement */
+    color: black; /* Conserve la couleur actuelle du texte (optionnel) */
+    }
+    
+    .partie1{
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+    .partie2{
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+    #img_terrain{
+        width: 400px;
+    }
+
+    iframe{
+    width:400px;
+    height:350px;
+    }
+    
+    #img_plage_foum{
+    width: 400px; 
+    height: 250px;
+    }
+
+#img_quad{
+width: 400px;
+}
+
+#img_ville7{
+width:400px; 
+}
+
+#img_paint-ball{
+width: 400px;
+}
+
+
+    .pied{
+    background-color: #6271dd;
+    color: white;
+    padding: 10px;
+    border: solid;
+    border-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    }
+    
+    
+    #logo_mar{
+    height: 90px;
+    width: 90px;
+    margin-right: 10px;
+    }
+    
+    #logo_ville{
+    height: 90px;
+    width: 90px;
+    margin-left: 10px;
+    }
+    
+    .text{
+    background-color: rgba(255, 255, 255, 0.778);
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    align-content:center;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    position: sticky;
+    }
+    
+    .text_carte_inter{
+    background-color: rgba(255, 255, 255, 0.778);
+    justify-items: left;
+    text-align: left;
+    align-items: left;
+    align-content:left;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    height: 100%;
+    }
+    
+    h1{
+    color: rgb(1, 1, 131);
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    align-content:center;
+    display: inline-block;
+    padding: 2px;
+    }
+    
+    h3{
+    color: rgb(1, 1, 131);
+    background-color: rgba(255, 255, 255, 0.778);
+    text-align: center;
+    align-items: center;
+    align-content:center;
+    display: inline-block;
+    padding: 2px;
+    }
+    
+    .ville{
+    height: 300px;
+    width: 320px;
+    }
+    
+    .offcanvas{
+    position: fixed;
+    }
+}
